@@ -40,6 +40,56 @@ body{
     height: 56px;
     background-color: var(--sidebar-bg);
     border-bottom: 1px solid var(--siderbar-line);
+    position: fixed; /*queda fijo en el mismo lugar, no permite srolear*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+
 }
 
-.sidebar{}
+/*para ir del padre al hijo*/
+.topbar .title-business{
+    font-size: 1rem;/*16px*/
+    font-weight: 600;
+    color: var(--text);
+}
+
+.hamburger{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem; /*19.2 equivale al 1.2 veces el tamaño base que es 16 px*/
+    color: var(--text);
+}
+/* FUNCIONA CON JAVACRIP EL OVERLAY*/
+
+.overlay{
+    display: none;
+    position: fixed;
+    inset: 0; /*top, buttom, night, left */
+    background-color: rgba(0,0,0,0.3);
+    z-index: 150;
+}
+
+/* Esto funcionara a la hora de programar en js*/
+
+.overlay .show{
+    display: block;    
+}
+
+/* SIDE-BAR - VENTANA IZQUIERDA*/
+.sidebar{
+    position:  fixed;
+    top: 0;
+    left: -100%;
+    width: var(--sidebar-w); /*ancho 220px*/
+    height: 100vh;
+    background-color: var(--sidebar-bg);
+    border: 1px solid var(--siderbar-line);
+    display: flex;
+    flex-direction: column;
+    z-index: 160;
+    transition: left 0.25s ease; /*ANIMACION*/
+    padding: 24px 0;
+}
