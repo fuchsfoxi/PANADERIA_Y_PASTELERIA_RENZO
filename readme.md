@@ -44,14 +44,14 @@ SOLUCIOÓN:  La solución que se planteo es hacer un sistema que permita gestion
 ## REQUIRIMENTO NO FUNCIONALES 
 
 1. USABILIDAD
-   1.La interfaz del sistema debe ser sencilla e intuitiva para  los trabajadores
-   2.El sistema debe mostrar la información de forma clara y organizada
-   3. El 	sistema debe mostrar mensajes claros cuando
- 2. RENDIMIENTO
+      1. 1.La interfaz del sistema debe ser sencilla e intuitiva para  los trabajadores
+      2.El sistema debe mostrar la información de forma clara y organizada
+      3. El sistema debe mostrar mensajes claros cuando
+ 3. RENDIMIENTO
     1. El sistema debe registrar la producción en menos de 3 segundos
     2. El sistema debe permitir consultar la producción rápidamente
     3. El 	sistema debe 	permitir manejar  múltiples registros 	de producción
- 3. ALMACENAMIENTO
+ 4. ALMACENAMIENTO
      1.El sistema debe almacenar la información en una base de datos
      2.El sistema debe guardar los registros de producción diaria
      3.La base de datos debe mantener la información ordenada
