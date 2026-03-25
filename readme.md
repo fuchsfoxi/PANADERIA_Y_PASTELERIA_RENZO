@@ -52,9 +52,9 @@ SOLUCIOÓN:  La solución que se planteo es hacer un sistema que permita gestion
     2. El sistema debe permitir consultar la producción rápidamente
     3. El 	sistema debe 	permitir manejar  múltiples registros 	de producción
  5. ALMACENAMIENTO
-     1.El sistema debe almacenar la información en una base de datos
-     2.El sistema debe guardar los registros de producción diaria
-     3.La base de datos debe mantener la información ordenada
+     1. El sistema debe almacenar la información en una base de datos
+     2. El sistema debe guardar los registros de producción diaria
+     3. La base de datos debe mantener la información ordenad
 4.MANTENIBILIDAD
      1. El sistema debe estar desarrollado de 	forma  estructurada
      2. El sistema debe permitir realizar modificaciones sin 	afectar 	el sistema
