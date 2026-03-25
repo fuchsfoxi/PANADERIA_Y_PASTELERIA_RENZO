@@ -18,7 +18,7 @@ PROBLEMATICA: Actualmente la empresa registra su producción de manera manual en
 
 SOLUCIOÓN:  La solución que se planteo es hacer un sistema que permita gestionar o registrar los datos diarios de dicha empresa dicho sistema almacenara información relevante de la fecha de la producción, hora permitiendo además realizar operaciones como editar, eliminar y agregar.  
 
-## REQUIRIMIENTOS MUNCIONALES
+## REQUERIMIENTOS MUNCIONALES
 
 1. TIPO DE PRODUCTOS
     1. El sistema debe de poder gestionar los tipos de productos
@@ -41,17 +41,17 @@ SOLUCIOÓN:  La solución que se planteo es hacer un sistema que permita gestion
     3. El sistema debe permitir consultar producción por  turno
     4. El sistema debe mostrar los turnos registrados
    
-## REQUIRIMENTO NO FUNCIONALES 
+## REQUERIMENTO NO FUNCIONALES 
 
 1. USABILIDAD
-      1. 1.La interfaz del sistema debe ser sencilla e intuitiva para  los trabajadores
-      2.El sistema debe mostrar la información de forma clara y organizada
-      3. El sistema debe mostrar mensajes claros cuando
- 3. RENDIMIENTO
+   1. La interfaz del sistema debe ser sencilla e intuitiva para  los trabajadores
+   2. El sistema debe mostrar la información de forma clara y organizada
+   3. El 	sistema debe mostrar mensajes claros cuando
+ 4. RENDIMIENTO
     1. El sistema debe registrar la producción en menos de 3 segundos
     2. El sistema debe permitir consultar la producción rápidamente
     3. El 	sistema debe 	permitir manejar  múltiples registros 	de producción
- 4. ALMACENAMIENTO
+ 5. ALMACENAMIENTO
      1.El sistema debe almacenar la información en una base de datos
      2.El sistema debe guardar los registros de producción diaria
      3.La base de datos debe mantener la información ordenada
