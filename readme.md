@@ -19,11 +19,56 @@ PROBLEMATICA: Actualmente la empresa registra su producción de manera manual en
 SOLUCIOÓN:  La solución que se planteo es hacer un sistema que permita gestionar o registrar los datos diarios de dicha empresa dicho sistema almacenara información relevante de la fecha de la producción, hora permitiendo además realizar operaciones como editar, eliminar y agregar.  
 
 ## REQUIRIMIENTOS MUNCIONALES
-| Codigo | Descripcion |
-|---|---|
-| RF01 | El sistema debe permitir registrar un nuevo cliente con nombre, apellido, DNI, telefono y direccion |
-| RF02 | El sistema debe permitir registrar un nuevo prestamo indicando monto total, cuota, numero de cuotas y fecha de inicio |
-| RF03 | El sistema debe permitir registrar el cobro diario de un cliente asociado a su prestamo |
-| RF04 | El sistema debe mostrar el listado de todos los clientes con su estado de deuda |
-| RF05 | El sistema debe mostrar el historial de cobros realizados por prestamo |
+
+1. TIPO DE PRODUCTOS
+    1. El sistema debe de poder gestionar los tipos de productos
+    2. El sistema debe de poder editar los tipos de productos
+    3. El sistema debe poder eliminar el tipo de productos
+    4. El sistema debe de mostrar la lista de tipos de productos
+2. PRODUCTOS
+   1. El sistema debe permitir registrar nuevos productos
+   2. El sistema debe permitir editar la información de los productos
+   3. El sistema debe permitir eliminar productos
+   4. El sistema debe mostrar la lista de productos registrados
+3. PRODUCCION
+    1. El sistema debe registrar la  producción diaria
+    2. El sistema debe registrar la  cantidad producida
+    3. El sistema debe registrar la fecha de producción
+    4. El sistema debe registrar la fecha de producción
+ 4. TURNOS 
+    1. El sistema debe registrar el turno de producción
+    2. El sistema debe permitir registrar turno mañana o  tarde
+    3. El sistema debe permitir consultar producción por  turno
+    4. El sistema debe mostrar los turnos registrados
+   
+## REQUIRIMENTO NO FUNCIONALES 
+
+1. USABILIDAD
+   1.La interfaz del sistema debe ser sencilla e intuitiva para  los trabajadores
+   2.El sistema debe mostrar la información de forma clara y organizada
+   3. El 	sistema debe mostrar mensajes claros cuando
+ 2. RENDIMIENTO
+    1. El sistema debe registrar la producción en menos de 3 segundos
+    2. El sistema debe permitir consultar la producción rápidamente
+    3. El 	sistema debe 	permitir manejar  múltiples registros 	de producción
+ 3. ALMACENAMIENTO
+    1.El sistema debe almacenar la información en una base de datos
+    2.El sistema debe guardar los registros de producción diaria
+    3.La base de datos debe mantener la información ordenada
+4.MANTENIBILIDAD
+     1. El sistema debe estar desarrollado de 	forma  estructurada
+     2. El sistema debe permitir realizar modificaciones sin 	afectar 	el sistema
+     3. El sistema debe permitir realizar modificaciones sin 	afectar 	el sistema 
+
+
+
+
+ 
+ 
+
+
+
+
+
+
 
