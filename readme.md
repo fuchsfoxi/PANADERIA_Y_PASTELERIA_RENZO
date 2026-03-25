@@ -62,6 +62,31 @@ SOLUCIOÓN:  La solución que se planteo es hacer un sistema que permita gestion
      3. El sistema debe permitir realizar modificaciones sin 	afectar 	el sistema 
 
 
+## Stack completo
+1. Trello             = Gestión del proyecto (Kanban)
+2. Draw.io            = Diagrama ER + Diagrama de Clases
+3. Figma              = Wireframe + Diseño UI/UX
+4. MySQL Workbench    = Diseñar y administrar BD
+5. IntelliJ           = Frontend (HTML,CSS,JS) + Backend (Spring Boot)
+6. XAMPP              = Servidor Tomcat para correr la app
+
+## Tecnologias utilizadas
+- Java 17
+- Spring Boot 3
+- MySQL 8
+- HTML5, CSS3, JavaScript
+- IntelliJ IDEA
+- XAMPP (Tomcat)
+- MySQL Workbench
+- Figma (diseño UI/UX)
+- Draw.io (diagramas)
+
+| Tabla | Descripcion |
+|---|---|
+| tipo | tipo del producto que se esta agregando añ historial|
+| PRODUCTO | la cantidad de productos que se hizo en el dia |
+| PRODUCCION | regstra la produccion que se creo en un turno respectivo |
+| TURNO | Registro la produccion dividida por turno |
 
 
  
